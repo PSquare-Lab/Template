@@ -1,1 +1,224 @@
 
+\documentclass[a4paper,11pt]{article}
+\usepackage{cv,booktabs,fontawesome}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{etaremune}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{myblue}{RGB}{0, 71, 200}
+\definecolor{myblue2}{rgb}{0.3,0.1,0.6}
+
+% Space before section headings
+\titlespacing{\section}{0pt}{2ex}{1ex}
+
+\name{$\mathcal{P}^2-\texttt{Lab}$}
+
+\info{\faicon{map-marker} & Earth \\
+      \faicon{home}       & \href{https://www.linkedin.com/in/p2lab}{LinkedIn} \\
+      \faicon{envelope}   & \href{mailto:alexa.hernandez@example.com}{p2lab@example.com} \\
+      \faicon{graduation-cap} & \href{https://scholar.google.com/citations?user=p2lab}{Google Scholar} 
+      }
+
+\bibliography{hernandez}
+
+\DeclareSourcemap{
+  \maps[datatype=bibtex, overwrite]{
+    \map{
+      \step[fieldset=month, null]
+    }
+  }
+}
+
+\usepackage[sfdefault,lf,t]{carlito}
+\usepackage[backend=biber,sorting=ydnt,dashed=false]{biblatex}
+\renewcommand{\bibfont}{\normalfont\fontsize{11}{12.4}\sffamily}
+\usepackage{inconsolata}
+
+\renewcommand{\bibsetup}{\vspace*{-0.7\baselineskip}}
+\setlength{\bibitemsep}{0.25\baselineskip}
+\setlength{\bibhang}{2em}
+
+\begin{document}
+\maketitle
+
+\vspace{0.3em}
+
+\section{EDUCATION}
+\begingroup
+\setlength{\tabcolsep}{12pt}
+\begin{tabularx}{\textwidth}{@{}llll>{\raggedleft\arraybackslash}X@{}}
+Ph.D. & Computer Science & University of Colorado Boulder, USA & 3.95/4.0 & 2022 \\
+M.S. & Data Science & Stanford University, USA & 3.89/4.0 & 2017 \\
+B.S. & Computer Science & Indian Institute of Technology, Roorkee & 9.00/10.0 & 2005
+\end{tabularx}
+\endgroup
+
+\section{\uppercase{Professional Experience}}
+
+% \textbf{Postdoctoral Researcher, National Renewable Energy Laboratory (NREL)} \hfill Since Jan. 2023
+% \vspace{-0.3em}
+
+% \begin{itemize}[noitemsep]
+%     \item[\faChevronRight] Conducting research on machine learning applications for renewable energy systems
+%     \item[\faChevronRight] Developing optimization algorithms for energy storage and grid integration
+%     \item[\faChevronRight] Collaborating with cross-disciplinary teams to improve energy efficiency
+% \end{itemize}
+
+\textbf{Data Scientist, Mango Inc.} \hfill Sep. 2017 - Dec. 2022
+\vspace{-0.3em}
+\begin{itemize}[noitemsep]
+    \item[\faChevronRight] Designed predictive models for battery performance and lifecycle management
+    \item[\faChevronRight] Implemented data-driven solutions for autonomous vehicle systems
+    \item[\faChevronRight] Analyzed large datasets to improve manufacturing processes and product reliability
+\end{itemize}
+
+\textbf{Graduate Research Assistant, Stanford University} \hfill Sep. 2015 - Jun. 2017
+\vspace{-0.3em}
+\begin{itemize}[noitemsep]
+    \item[\faChevronRight] Developed machine learning algorithms for medical imaging applications
+    \item[\faChevronRight] Published research on neural networks and deep learning
+    \item[\faChevronRight] Presented findings at international conferences and symposia
+\end{itemize}
+
+\section{SELECTED HONORS AND AWARDS}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedleft\arraybackslash}X@{}}
+Google PhD Fellowship in Machine Learning & 2021 \\
+
+National Science Foundation Graduate Research Fellowship & 2018 \\
+
+Outstanding Research Award, Stanford University & 2017 \\
+
+Best Student Paper Award, IEEE Conference on Computer Vision and Pattern Recognition & 2016 \\
+
+Dean's Honor List, UC Berkeley & 2015 \\
+\end{tabularx}
+
+\section{PUBLICATIONS \hfill \small \textcolor{black}{500+ Citations}}
+\subsection{Peer-Reviewed Journal Papers}
+\begin{etaremune}[leftmargin=1cm,itemsep=0cm]
+\renewcommand\labelenumi{[J\theenumi]}
+
+\item A. Smith, \textbf{$\mathcal{P}^2-\texttt{Lab}$}, J. Doe, ``Optimizing Energy Storage for Renewable Integration Using Machine Learning,'' \textit{Journal of Renewable Energy}, vol. 15, no. 4, pp. 123-135, 2024.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, B. Green, ``Predictive Modeling for Battery Performance in Electric Vehicles,'' \textit{IEEE Transactions on Smart Grid}, vol. 13, no. 2, pp. 567-578, 2023.
+
+\item J. Doe, \textbf{$\mathcal{P}^2-\texttt{Lab}$}, S. Lee, ``Neural Networks for Medical Imaging: Advances and Applications,'' \textit{IEEE Transactions on Medical Imaging}, vol. 40, no. 5, pp. 890-901, 2022.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, K. White, ``Data-Driven Solutions for Autonomous Vehicle Systems,'' \textit{Journal of Artificial Intelligence Research}, vol. 55, no. 3, pp. 678-689, 2021.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, R. Black, ``Deep Learning for Energy Efficiency in Smart Grids,'' \textit{IEEE Transactions on Industrial Informatics}, vol. 17, no. 1, pp. 345-356, 2020.
+\end{etaremune}
+
+
+\subsection{Pre-Prints and Working Papers}
+\begin{etaremune}[leftmargin=1cm,itemsep=0cm]
+\renewcommand\labelenumi{[W\theenumi]}
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, B. Green, ``Machine Learning for Smart Grid Optimization,'' \textit{Proceedings of the IEEE International Conference on Smart Grid Technology}, pp. 123-130, 2023.
+
+\end{etaremune}
+
+
+\subsection{Peer-Reviewed Conference Papers}
+\begin{etaremune}[leftmargin=1cm,itemsep=0cm]
+\renewcommand\labelenumi{[C\theenumi]}
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, B. Green, ``Machine Learning for Smart Grid Optimization,'' \textit{Proceedings of the IEEE International Conference on Smart Grid Technology}, pp. 123-130, 2023.
+
+\item J. Doe, \textbf{$\mathcal{P}^2-\texttt{Lab}$}, S. Lee, ``Advances in Neural Networks for Medical Imaging,'' \textit{Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pp. 890-897, 2022.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, K. White, ``Autonomous Vehicle Systems: Data-Driven Approaches,'' \textit{Proceedings of the International Conference on Machine Learning}, pp. 456-463, 2021.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, R. Black, ``Energy Efficiency through Deep Learning,'' \textit{Proceedings of the IEEE International Conference on Industrial Informatics}, pp. 234-241, 2020.
+
+\item \textbf{$\mathcal{P}^2-\texttt{Lab}$}, J. Doe, ``Predictive Models for Battery Performance,'' \textit{Proceedings of the IEEE International Conference on Smart Grid Technology}, pp. 345-352, 2019.
+\end{etaremune}
+
+
+\newpage
+\section{TEACHING \& MENTORING}
+\subsection{Teaching Experience}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Teaching Assistant, University of Colorado Boulder \hfill 2019-2022
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item 
+Teaching assistant for the undergraduate-level ``CSCI 4504 - Machine Learning'' course ($\approx$ 60 students).
+
+\item 
+Teaching assistant for the graduate-level ``CSCI 5754 - Advanced Data Science'' course ($\approx$ 40 students).
+\end{itemize}
+
+\item Completed "Effective Teaching Strategies" course at Stanford University \hfill 2016
+
+\item Teaching Assistant, UC Berkeley \hfill 2014-2015
+\begin{itemize}
+    \item Teaching assistant for the undergraduate-level ``CS 61B - Data Structures'' course ($\approx$ 100 students)
+    \item Assisted course instructor in organizing labs and grading assignments
+\end{itemize}
+\end{itemize}
+
+\subsection{Mentoring}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Mentor for Ph.D. students at NREL \hfill Since 2023
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Guiding Ph.D. students in research related to energy systems and machine learning
+\item
+Providing feedback on research progress and publication
+\end{itemize}
+
+\item
+Mentor for undergraduate interns at Tesla \hfill 2018-2022
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Guided undergraduate interns in data analysis and machine learning projects
+\item
+Provided support and feedback on project work and career development
+\end{itemize}
+\end{itemize}
+
+\section{PROFESSIONAL SERVICE}
+\subsection{Editorial Board Memberships}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Editorial Board Member, {\it IEEE Transactions on Neural Networks and Learning Systems} \hfill Since 2023
+\item
+Editorial Board Member, {\it Journal of Artificial Intelligence Research} \hfill Since 2022
+\end{itemize}
+
+\subsection{Reviewing Activities}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Reviewer, {\it IEEE Transactions on Smart Grid} \hfill 2021 - Present
+\item
+Reviewer, {\it Conference on Neural Information Processing Systems} \hfill 2020 - Present
+\item
+Reviewer, {\it IEEE Conference on Computer Vision and Pattern Recognition} \hfill 2019 - Present
+\item
+Reviewer, {\it International Conference on Machine Learning} \hfill 2018 - Present
+\end{itemize}
+
+\section{PROFESSIONAL AFFILIATIONS}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item
+Member, Institute of Electrical and Electronics Engineers (IEEE)
+\item Member, Association for the Advancement of Artificial Intelligence (AAAI)
+\item Member, Society for Industrial and Applied Mathematics (SIAM)
+\end{itemize}
+
+\section{SELECTED PRESENTATIONS}
+\begin{itemize}[leftmargin=0.7cm,itemsep=0cm]
+\item ``Machine Learning for Energy Systems,'' {\it IEEE International Conference on Smart Grid Technology}. \hfill 2023
+\item ``Advances in Neural Networks for Medical Imaging,'' {\it IEEE Conference on Computer Vision and Pattern Recognition}. \hfill 2022
+\item ``Data-Driven Solutions for Autonomous Vehicle Systems,'' {\it International Conference on Machine Learning}. \hfill 2021
+\item ``Energy Efficiency through Deep Learning,'' {\it IEEE International Conference on Industrial Informatics}. \hfill 2020
+\end{itemize}
+
+\section{REFERENCES}
+Available upon request.
+
+\end{document}
+
