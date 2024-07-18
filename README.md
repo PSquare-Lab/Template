@@ -5,3 +5,4 @@ This repository contains a collection of LaTeX and document templates specifical
 1. **IEEE_Trans_Temp**: A LaTeX project based on the IEEEtran class. The .tex file in this project includes examples of using tables, figures, double columns, TikZ diagrams, and more.
 2. **Presentation**: A LaTeX project based on the Beamer class. The .tex document in this project demonstrates various features such as columns, animations, blocks, and more.
 3. **Schematics**: Collection of raw files of schematics made by group members using TikZ and more.
+4. **CV Formats**: A LaTeX project having various  CVs formats starting from one page formats. The .tex documents showcases features like sections, bullet points, custom formatting, and more.
